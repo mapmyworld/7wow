@@ -1,0 +1,34 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Taj Mahal",
+		"model": "taj_mahal.glb",
+		"scale": 0.1,
+		"zoom": 17
+      },
+      "geometry": {
+        "coordinates": [78.04165, 27.1745],
+        "type": "Point"
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Eiffel Tower",
+		"model": "eiffel_tower.glb",
+		"bearing": -45,
+		"scale": 0.02,
+		"zoom": 16.5
+      },
+      "geometry": {
+        "coordinates": [2.2935, 48.8575],
+        "type": "Point"
+      },
+      "id": 2
+    }
+	]
+}
